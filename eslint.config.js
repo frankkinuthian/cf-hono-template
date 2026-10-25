@@ -1,4 +1,4 @@
-import eslintPluginAstro, { processors } from "eslint-plugin-astro";
+import eslintPluginAstro from "eslint-plugin-astro";
 
 export default [
   // add more generic rule sets here, such as:
