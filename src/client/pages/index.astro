@@ -3,6 +3,7 @@ import Hero from "../components/hero/Hero.astro";
 import Layout from "../layouts/Layout.astro";
 import Signup from "../components/hero/Signup";
 import Card from "../components/hero/Card.astro";
+import Serverstatus from "../components/server/ServerStatus";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -28,4 +29,6 @@ import Card from "../components/hero/Card.astro";
       description="Build muscle memory to not just write code faster by hand but also review clanker-written code."
     />
   </div>
+
+  <Serverstatus client:load />
 </Layout>

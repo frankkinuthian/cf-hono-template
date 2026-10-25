@@ -1,0 +1,9 @@
+{
+	// Top-level configuration
+	"name": "cf-hono-template",
+	"main": "src/server/index.ts",
+
+	// Date
+	"compatibility_date":"2026-10-19",
+	"workers_dev": false
+}
