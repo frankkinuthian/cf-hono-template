@@ -9,7 +9,8 @@
     "dev": "bun run --bun astro dev",
     "build": "bun run --bun astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint 'src/**/*.{js, ts, tsx, astro}'"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
@@ -17,6 +18,9 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "daisyui": "^5.7.50"
+    "@typescript-eslint/parser": "^8.72.0",
+    "daisyui": "^5.7.50",
+    "eslint": "^10.13.0",
+    "eslint-plugin-astro": "^3.2.1"
   }
 }
